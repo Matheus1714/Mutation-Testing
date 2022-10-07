@@ -1,7 +1,7 @@
 from dotenv import dotenv_values
 
-from data.create_measure_file import create_measure_file
-from data.generate_measures import generate_measures
+from mocks.create_measure_file import create_measure_file
+from mocks.generate_measures import generate_measures
 
 from src.get_data_file import get_data_file
 
