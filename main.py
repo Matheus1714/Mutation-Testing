@@ -4,6 +4,7 @@ from mocks.create_measure_file import create_measure_file
 from mocks.generate_measures import generate_measures
 
 from src.get_data_file import get_data_file
+from src.get_final_measure import get_final_measure
 
 if __name__ == '__main__':
 
@@ -19,5 +20,7 @@ if __name__ == '__main__':
     create_measure_file(file_path, measures)
 
     data = get_data_file(file_path)
+
+    s, ds = get_final_measure(data)
     
 

@@ -6,4 +6,4 @@ Study of Case (SC) for Muttation Testing (MT) application using <em>python</em> 
 
 ## Scenario
 
-The first scenario is using o Bubble Sort code in folder `/src`
+The Study of Case (SC) for this repo is solve a problem with sum of measures with values and errors. 
